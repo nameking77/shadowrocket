@@ -1,0 +1,8 @@
+#!name=傲软抠图
+#!desc=获取更多资源👉https://t.me/yqc_123
+# 
+[MITM]
+hostname = notability.com
+
+[Script]
+傲软抠图 = type=http-response,script-path= https://raw.githubusercontent.com/nameking77/ziyong/main/notability.js?token=GHSAT0AAAAAABU6KA2X4GT4LT5BA44DTH74YUONA5A,pattern=^https?:\/\/notability\.com\/subscriptions,max-size=131072,requires-body=true,timeout=10,enable=true
